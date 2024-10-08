@@ -38,9 +38,24 @@ npm start
 
 Luego, abre tu navegador y ve a `http://localhost:3000`.
 
+
 ## Configuración
 
 Asegúrate de que tu aplicación esté configurada para usar el puerto correcto. En este caso, el servidor está configurado para ejecutarse en `http://localhost:3000`.
+
+Además, necesitarás configurar la URL de la API en tu archivo `.env`. Asegúrate de incluir la siguiente línea en tu archivo `.env`:
+
+```
+REACT_APP_API_URL=http://localhost:8081
+```
+
+Esto permitirá que tu aplicación React se comunique correctamente con el backend.
+
+## Backend
+
+Para desplegar el backend localmente, utiliza el siguiente repositorio:
+
+[https://github.com/rubenmacias2/Kuepa-Course-FrondBackend-Chat.git](https://github.com/rubenmacias2/Kuepa-Course-FrondBackend-Chat.git)
 
 ## Contribuciones
 
