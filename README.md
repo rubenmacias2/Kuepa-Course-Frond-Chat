@@ -35,6 +35,12 @@ Para iniciar el servidor, utiliza el siguiente comando:
 ```bash
 npm start
 ```
+## Backend
+
+Para desplegar el proyecto de manera correcta descargar el backend localmente, utiliza el siguiente repositorio:
+
+[https://github.com/rubenmacias2/Kuepa-Course-FrondBackend-Chat.git](https://github.com/rubenmacias2/Kuepa-Course-FrondBackend-Chat.git)
+
 
 Luego, abre tu navegador y ve a `http://localhost:3000`.
 
@@ -50,12 +56,6 @@ REACT_APP_API_URL=http://localhost:8081
 ```
 
 Esto permitirá que tu aplicación React se comunique correctamente con el backend.
-
-## Backend
-
-Para desplegar el backend localmente, utiliza el siguiente repositorio:
-
-[https://github.com/rubenmacias2/Kuepa-Course-FrondBackend-Chat.git](https://github.com/rubenmacias2/Kuepa-Course-FrondBackend-Chat.git)
 
 ## Contribuciones
 
